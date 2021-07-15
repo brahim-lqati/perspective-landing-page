@@ -1,0 +1,88 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  padding: 2% 5%;
+  background: #0a0b0d;
+  color: white;
+}
+
+.company {
+  padding-right: 20%;
+}
+
+.company img {
+  width: 100%;
+}
+
+.companyText {
+  font-size: 1.05rem;
+  font-weight: 400;
+}
+
+.social-media i {
+  margin-right: 10px;
+  font-size: 1.25rem;
+}
+
+.section {
+  letter-spacing: 1.15;
+}
+
+.smallTitle {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.links {
+  padding-top: 20px;
+}
+
+.links a {
+  color: white;
+  opacity: 0.5;
+  display: block;
+}
+
+.links a:hover {
+  opacity: 1;
+}
+
+.dot {
+  color: #6db4f2;
+}
+
+.hr {
+  margin: 20px 0;
+}
+
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr 1fr 1fr;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+
+.copyright {
+  font-size: 1.05rem;
+  opacity: 0.8;
+  font-weight: 400;
+}
+/*# sourceMappingURL=style.css.map */

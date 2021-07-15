@@ -1,0 +1,74 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.dot {
+  color: #6db4f2;
+}
+
+.main {
+  height: 60vh;
+  background: url("back.png");
+  background-position: center;
+  padding: 2% 5%;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.caption {
+  width: 45vw;
+}
+
+.caption h1 {
+  font-size: 6rem;
+}
+
+.caption h2 {
+  font-size: 1.2;
+  font-weight: 400;
+  opacity: .75;
+  padding-right: 25%;
+  margin: 20px 0 50px 0;
+}
+
+.buttons {
+  display: block;
+}
+
+.btnPrimary {
+  padding: 15px 35px;
+  border-radius: 100px;
+  background: #6db4f2;
+  color: white;
+  font-weight: 600;
+  margin-right: 30px;
+}
+
+.btnWhite {
+  padding: 15px 35px;
+  border-radius: 100px;
+  background: white;
+  color: black;
+  font-weight: 600;
+}
+/*# sourceMappingURL=style.css.map */
