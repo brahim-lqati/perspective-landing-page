@@ -25,19 +25,17 @@ a {
 }
 
 .product {
-  padding: 0 0 20px 0;
-  width: 100%;
+  padding: 0 0 50px 0;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1.5fr 2fr;
-      grid-template-columns: 1.5fr 2fr;
+  -ms-grid-columns: 40vw 50vw;
+      grid-template-columns: 40vw 50vw;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
 .product1 {
-  width: 100%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
