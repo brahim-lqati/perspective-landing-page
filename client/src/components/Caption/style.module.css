@@ -26,6 +26,7 @@ a {
   height: 60vh;
   background: url("back.png");
   background-position: center;
+  background-repeat: none;
   padding: 2% 5%;
   display: -ms-grid;
   display: grid;
@@ -44,7 +45,7 @@ a {
 }
 
 .caption h2 {
-  font-size: 1.2;
+  font-size: 1.2rem;
   font-weight: 400;
   opacity: .75;
   padding-right: 25%;

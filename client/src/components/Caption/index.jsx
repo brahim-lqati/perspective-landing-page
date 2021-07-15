@@ -6,7 +6,7 @@ function Caption() {
     <main className={styles.main}>
       <div className={styles.caption}>
         <h1>
-          Embrace Your Vision<span class="dot">.</span>
+          Embrace Your Vision<span className={styles.dot}>.</span>
         </h1>
         <h2>
           Perspective will not only help people with impaired vision to read and

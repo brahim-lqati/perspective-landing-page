@@ -4,10 +4,12 @@ import './index.css';
 import App from './App';
 import Footer from './components/Footer';
 import Caption from './components/Caption';
+import Mission from './components/Mission';
 
 ReactDOM.render(
   <React.StrictMode>
     <Caption />
+    <Mission />
     <Footer />
   </React.StrictMode>,
   document.getElementById('root')
