@@ -1,0 +1,46 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #0a0b0d;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2% 5%;
+}
+
+.logo {
+  height: 1.5rem;
+}
+
+.link {
+  margin: 0 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+.btnbuy {
+  text-decoration: none;
+  font-size: 1.25rem;
+  border: 1.5px solid white;
+  background: transparent;
+  color: white;
+  padding: 5px 30px;
+  border-radius: 50px;
+  margin: 0 20px;
+}
+
+.btnbuy:hover {
+  background: white;
+  color: black;
+  transition: .5s;
+}
+/*# sourceMappingURL=style.module.css.map */

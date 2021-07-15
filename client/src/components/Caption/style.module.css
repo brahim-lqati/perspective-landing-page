@@ -27,7 +27,7 @@ a {
   background: url("back.png");
   background-position: center;
   background-repeat: none;
-  padding: 2% 5%;
+  padding: 5%;
   display: -ms-grid;
   display: grid;
   -webkit-box-align: center;

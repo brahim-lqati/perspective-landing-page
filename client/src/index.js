@@ -5,11 +5,15 @@ import App from './App';
 import Footer from './components/Footer';
 import Caption from './components/Caption';
 import Mission from './components/Mission';
+import Products from './components/Products';
+import Navbar from './components/Navbar'
 
 ReactDOM.render(
   <React.StrictMode>
+    <Navbar />
     <Caption />
     <Mission />
+    <Products />
     <Footer />
   </React.StrictMode>,
   document.getElementById('root')

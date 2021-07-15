@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./style.module.css";
 import logo from "./PERSPECTIVE.svg";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Footer() {
   return (
@@ -13,12 +14,6 @@ function Footer() {
             It’s our ambition to Help visiualy impeared people intgrate school
             better <span className="dot">.</span>
           </p>
-          <div className={styles.smallTitle}>
-            <i className="fab fa-instagram"></i>
-            <i className="fab fa-linkedin"></i>
-            <i className="fab fa-facebook-square"></i>
-            <i className="fab fa-twitter"></i>
-          </div>
         </div>
         <section className={styles.section}>
           <h5 className={styles.smallTitle}>

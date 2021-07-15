@@ -31,11 +31,11 @@ a {
 }
 
 .wrapper {
-  padding: 2.5% 0;
+  padding: 1% 0;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 3fr;
-      grid-template-columns: 1fr 3fr;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
   grid-column-gap: 5%;
   -webkit-box-align: center;
       -ms-flex-align: center;
