@@ -7,36 +7,84 @@ import React from "react";
 // import IconButton from '@material-ui/core/IconButton';
 // import MenuIcon from '@material-ui/icons/Menu';
 
-import styles from "./style.module.css";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+
+ import Slider from "react-slick";
+ import "slick-carousel/slick/slick.css"; 
+ import "slick-carousel/slick/slick-theme.css";
+ import styles from './style.module.css'
 
 const Team = () => {
+
   const settings = {
-    dots: true,
+    className: "center",
+    centerMode: true,
     infinite: true,
+    centerPadding: "60px",
     slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    speed: 2000,
-    autoplaySpeed: 2000,
-    cssEase: "linear",
+    speed: 500
   };
 
   return (
     <div>
-      <Slider {...settings}>
-        <div className={styles.card}>
-          <div className={styles.desc}>
-            <div className={styles.name}>
-              Brahim <span className={styles.lname}>Elqati</span>
-            </div>
-            <div className={styles.team}>Developement Team</div>
-          </div>
+    <h2>Auto Play</h2>
+    <Slider {...settings}>
+    <div className={styles.card}>
+      <img src="images/brahim.png" height="100%" width="100%"/>
+      <div className={styles.desc}>
+        <div className={styles.name}>
+          Brahim <span className={styles.lname}>Lqati</span>
         </div>
-      </Slider>
+        <div className={styles.team}>Developement Team</div>
+      </div>
     </div>
+    <div className={styles.card}>
+      <img src="images/brahim.png" height="100%" width="100%"/>
+      <div className={styles.desc}>
+        <div className={styles.name}>
+          Brahim <span className={styles.lname}>Lqati</span>
+        </div>
+        <div className={styles.team}>Developement Team</div>
+      </div>
+    </div>
+    <div className={styles.card}>
+      <img src="images/mahmoud.png" height="100%" width="100%"/>
+      <div className={styles.desc}>
+        <div className={styles.name}>
+          Brahim <span className={styles.lname}>Lqati</span>
+        </div>
+        <div className={styles.team}>Developement Team</div>
+      </div>
+    </div>
+    <div className={styles.card}>
+      <img src="images/Maroua.png" height="100%" width="100%"/>
+      <div className={styles.desc}>
+        <div className={styles.name}>
+          Brahim <span className={styles.lname}>Lqati</span>
+        </div>
+        <div className={styles.team}>Developement Team</div>
+      </div>
+    </div>
+    <div className={styles.card}>
+      <img src="images/omar.png" height="100%" width="100%"/>
+      <div className={styles.desc}>
+        <div className={styles.name}>
+          Brahim <span className={styles.lname}>Lqati</span>
+        </div>
+        <div className={styles.team}>Developement Team</div>
+      </div>
+    </div>
+    <div className={styles.card}>
+      <img src="images/choukri.png" height="100%" width="100%"/>
+      <div className={styles.desc}>
+        <div className={styles.name}>
+          Brahim <span className={styles.lname}>Lqati</span>
+        </div>
+        <div className={styles.team}>Developement Team</div>
+      </div>
+    </div>
+
+    </Slider>
+  </div>
   );
 };
 

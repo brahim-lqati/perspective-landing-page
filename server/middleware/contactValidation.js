@@ -6,9 +6,9 @@ const addContactShema = {
             errorMessage : "this email is invalid"
         }
     },
-    object: {
+    subject: {
         notEmpty: {
-            errorMessage : "Object cannot be empty"
+            errorMessage : "Subject cannot be empty"
         }
     },
     content: {
