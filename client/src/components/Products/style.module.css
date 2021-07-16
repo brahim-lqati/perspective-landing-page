@@ -112,5 +112,7 @@ a {
   margin: 25px 0 65px 0;
   width: 10%;
   border: 2.5px solid #6db4f2;
+  background-color: #6db4f2;
+  border-radius: 25px;
 }
 /*# sourceMappingURL=style.css.map */
