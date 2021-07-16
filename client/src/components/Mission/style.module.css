@@ -1,0 +1,53 @@
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #6db4f2;
+}
+
+.mission {
+  background: #0a0b0d;
+  color: white;
+  padding: 2% 5%;
+}
+
+.wrapper {
+  padding: 1% 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+  grid-column-gap: 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.moto {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.pText {
+  font-weight: 300;
+  opacity: .6;
+  font-size: 1.2rem;
+}
+
+.dot {
+  color: #6db4f2;
+}

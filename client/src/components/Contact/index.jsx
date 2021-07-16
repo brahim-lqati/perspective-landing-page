@@ -12,7 +12,8 @@ import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
-
+import { useHistory } from 'react-router-dom';
+import axios from 'axios';
 
 
 
@@ -36,11 +37,11 @@ const useStyles = makeStyles((theme) => ({
     },
   }));
 
-const SignIn = () => {
+const Contact = () => {
     const classes = useStyles();
+    const history = useHistory();
     const [contact, setContact] = useState({
-        name: "",
-        sujet: "",
+        subject: "",
         email: "",
         content: ""
     });
@@ -51,8 +52,15 @@ const SignIn = () => {
             [e.target.name]: e.target.value
         });
     }
-    const handleSubmit = (e) => {
+    const handleSubmit = async(e) => {
         e.preventDefault();
+        try {
+          await axios.post('/api/contact',contact);
+          history.push('/');
+        } catch (error) {
+            console.log(error)
+        }
+
     }
     return (
       <Container component="main" maxWidth="xs">
@@ -84,9 +92,9 @@ const SignIn = () => {
                   variant="outlined"
                   required
                   fullWidth
-                  id="sujet"
-                  label="Sujet"
-                  name="sujet"
+                  id="subject"
+                  label="subject"
+                  name="subject"
                   autoComplete="lname"
                   onChange={handleChaneg}
                 />
@@ -139,4 +147,4 @@ const SignIn = () => {
     );
 }
 
-export default SignIn;
+export default Contact;
