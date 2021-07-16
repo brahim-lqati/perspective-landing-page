@@ -51,7 +51,7 @@ const Team = () => {
     {
       firstname: "Ismail",
       lastname: "Baouham",
-      team: "Embarqué",
+      team: "ML",
       image:"images/ismail.png"
     },
     {
@@ -64,7 +64,7 @@ const Team = () => {
       firstname: "Meryem",
       lastname: "EL Kasmi",
       team: "ML",
-      image:"images/meryem.png"
+      image:"images/meryeme.png"
     },
     ]
   return (
