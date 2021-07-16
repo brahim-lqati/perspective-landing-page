@@ -21,7 +21,7 @@ a {
 .parteners {
   background: #0a0b0d;
   color: white;
-  padding: 0 5% 2% 5%;
+  padding: 5%;
 }
 
 .sectionTitle {
@@ -33,7 +33,7 @@ a {
 }
 
 .hr {
-  margin: 25px 0 65px 0;
+  margin: 25px 0 45px 0;
   width: 10%;
   border: 2.5px solid #6db4f2;
   background-color: #6db4f2;
@@ -48,6 +48,6 @@ a {
 
 .logo {
   width: 100%;
-  border-radius: 25px;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=style.css.map */

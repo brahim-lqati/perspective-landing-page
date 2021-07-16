@@ -8,7 +8,7 @@ import Caption from '../../components/Caption';
 import Mission from '../../components/Mission';
 import Product from '../../components/Product';
 import Footer from '../../components/Footer';
-import Partners from '../../components/Partners'
+import Partners from '../../components/Partners';
 
 
 
@@ -30,6 +30,7 @@ const Home = () => {
           <Mission />
           <Product />
           <Partners />
+          <Team />
           <Footer />
         </> 
     )

@@ -15,8 +15,6 @@ a {
 .card {
   display: -ms-grid;
   display: grid;
-  width: 100px;
-  height: 355px;
   background-position: center;
   background-size: contain;
   margin: 0 100px;
@@ -26,7 +24,7 @@ a {
   background: white;
   color: black;
   text-align: center;
-  padding: 15px 0;
+  padding: 25px 0;
 }
 
 .name {
@@ -45,8 +43,24 @@ a {
   font-size: 1.25rem;
 }
 
-.test {
-  height: 50px;
-  width: 50px;
-  background-color: blueviolet;
+.sectionTitle {
+  color: white;
+  font-size: 4rem;
+  width: 45%;
+  letter-spacing: 5px;
+  font-weight: 700;
+}
+
+.hr {
+  margin: 25px 0 45px 0;
+  width: 10%;
+  border: 2.5px solid #6db4f2;
+  background-color: #6db4f2;
+  border-radius: 25px;
+}
+
+.teamContainer {
+  background: #0a0b0d;
+  color: white;
+  padding: 0 5% 5% 5%;
 }
