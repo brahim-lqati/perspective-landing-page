@@ -55,8 +55,12 @@ a {
   padding-right: 25%;
 }
 
+.content {
+  padding-right: 35%;
+}
+
 .content1 {
-  padding-right: 25%;
+  padding-right: 35%;
   -ms-grid-column-align: left;
       justify-self: left;
 }
