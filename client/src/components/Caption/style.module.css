@@ -17,7 +17,7 @@ a {
 }
 
 .main {
-  background: url("back.png");
+  background: url("background.png");
   background-position: center;
   background-repeat: none;
   background-size: fill;
