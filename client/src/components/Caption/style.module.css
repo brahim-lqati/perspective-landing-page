@@ -17,11 +17,11 @@ a {
 }
 
 .main {
-  height: 60vh;
   background: url("back.png");
   background-position: center;
   background-repeat: none;
-  padding: 0 5%;
+  background-size: fill;
+  padding: 10% 5%;
   display: -ms-grid;
   display: grid;
   -webkit-box-align: center;

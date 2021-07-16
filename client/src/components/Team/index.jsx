@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 // import { makeStyles } from '@material-ui/core/styles';
 // import AppBar from '@material-ui/core/AppBar';
 // import Toolbar from '@material-ui/core/Toolbar';
@@ -7,6 +7,7 @@ import React from 'react';
 // import IconButton from '@material-ui/core/IconButton';
 // import MenuIcon from '@material-ui/icons/Menu';
 
+<<<<<<< HEAD
 
  import Slider from "react-slick";
  import "slick-carousel/slick/slick.css"; 
@@ -15,6 +16,14 @@ import React from 'react';
 
 const Team = () => {
 
+=======
+import styles from "./style.module.css";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+const Team = () => {
+>>>>>>> 7f2720506919f9f04114803af5d749fa02ea095b
   const settings = {
     dots: true,
     infinite: true,
@@ -23,11 +32,12 @@ const Team = () => {
     autoplay: true,
     speed: 2000,
     autoplaySpeed: 2000,
-    cssEase: "linear"
+    cssEase: "linear",
   };
 
   return (
     <div>
+<<<<<<< HEAD
     <h2>Auto Play</h2>
     <Slider {...settings}>
     <div>
@@ -51,7 +61,20 @@ const Team = () => {
 
     </Slider>
   </div>
+=======
+      <Slider {...settings}>
+        <div className={styles.card}>
+          <div className={styles.desc}>
+            <div className={styles.name}>
+              Brahim <span className={styles.lname}>Elqati</span>
+            </div>
+            <div className={styles.team}>Developement Team</div>
+          </div>
+        </div>
+      </Slider>
+    </div>
+>>>>>>> 7f2720506919f9f04114803af5d749fa02ea095b
   );
-}
+};
 
 export default Team;
