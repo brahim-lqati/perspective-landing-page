@@ -47,3 +47,9 @@ a {
   color: rgba(0, 0, 0, 0.6);
   font-size: 1.25rem;
 }
+
+.test {
+  height: 50px;
+  width: 50px;
+  background-color: blueviolet;
+}

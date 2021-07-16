@@ -7,13 +7,14 @@ import React from 'react';
 // import IconButton from '@material-ui/core/IconButton';
 // import MenuIcon from '@material-ui/icons/Menu';
 
-import styles from './style.module.css'
+
  import Slider from "react-slick";
  import "slick-carousel/slick/slick.css"; 
  import "slick-carousel/slick/slick-theme.css";
+ import styles from './style.module.css'
 
 const Team = () => {
-  
+
   const settings = {
     dots: true,
     infinite: true,
@@ -26,26 +27,30 @@ const Team = () => {
   };
 
   return (
-      <div>
-            <Slider {...settings}>
-    <div className={styles.card}>
-    <div className={styles.desc}>
-      <div className={styles.name}>
-        Brahim <span className={styles.lname}>Elqati</span>
-      </div>
-      <div className={styles.team}>Developement Team</div>
+    <div>
+    <h2>Auto Play</h2>
+    <Slider {...settings}>
+    <div>
+        <img src="https://res.cloudinary.com/dlngsvzco/image/upload/v1626009328/naruto_itpeyf.png" width="100px" height="100px" />
     </div>
-  </div>
-  <div className={styles.card}>
-    <div className={styles.desc}>
-      <div className={styles.name}>
-        Brahim <span className={styles.lname}>Elqati</span>
-      </div>
-      <div className={styles.team}>Developement Team</div>
+    <div>
+        <img src="https://res.cloudinary.com/dlngsvzco/image/upload/v1626009328/naruto_itpeyf.png" width="100px" height="100px" />
     </div>
+    <div>
+        <img src="https://res.cloudinary.com/dlngsvzco/image/upload/v1626009328/naruto_itpeyf.png" width="100px" height="100px" />
+    </div>
+    <div>
+        <img src="https://res.cloudinary.com/dlngsvzco/image/upload/v1626009328/naruto_itpeyf.png" width="100px" height="100px" />
+    </div>
+    <div>
+        <img src="https://res.cloudinary.com/dlngsvzco/image/upload/v1626009328/naruto_itpeyf.png" width="100px" height="100px" />
+    </div>
+    <div>
+        <img src="https://res.cloudinary.com/dlngsvzco/image/upload/v1626009328/naruto_itpeyf.png" width="100px" height="100px" />
+    </div>
+
+    </Slider>
   </div>
-  </Slider>
-      </div>
   );
 }
 

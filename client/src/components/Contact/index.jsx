@@ -14,7 +14,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import { useHistory } from 'react-router-dom';
 import axios from 'axios';
-
+import Loader from 'react-loader-spinner';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -45,7 +45,11 @@ const Contact = () => {
         email: "",
         content: ""
     });
-
+    const [loading, setLoading] = useState(false);
+    const styleLoader = {
+      position: "absolute",
+      margin: "8% 12%"
+  }
     const handleChaneg = (e) => {
         setContact({
             ...contact,
@@ -55,7 +59,9 @@ const Contact = () => {
     const handleSubmit = async(e) => {
         e.preventDefault();
         try {
+          setLoading(true);
           await axios.post('/api/contact',contact);
+          setLoading(false);
           history.push('/');
         } catch (error) {
             console.log(error)
@@ -73,6 +79,14 @@ const Contact = () => {
             Contact Us
           </Typography>
           <form className={classes.form} noValidate onSubmit={handleSubmit}>
+          <Loader
+                style={styleLoader}
+                type="Oval"
+                color="#00BFFF"
+                height={60}
+                width={60}
+                visible={loading}
+        />
             <Grid container spacing={2}>
               <Grid item xs={12} sm={6}>
                 <TextField
@@ -125,12 +139,12 @@ const Contact = () => {
                   onChange={handleChaneg}
                 />
               </Grid>
-              <Grid item xs={12}>
+              {/* <Grid item xs={12}>
                 <FormControlLabel
                   control={<Checkbox value="allowExtraEmails" color="primary" />}
                   label="I want to receive inspiration, marketing promotions and updates via email."
                 />
-              </Grid>
+              </Grid> */}
             </Grid>
             <Button
               type="submit"
