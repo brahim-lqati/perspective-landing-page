@@ -3,10 +3,10 @@ const Shema = mongoose.Schema;
 
 const contactShema = new Shema({
     email: {
-        type: email,
+        type: String,
         required: true
     },
-    object: {
+    subject: {
         type: String,
         required: true
     },
