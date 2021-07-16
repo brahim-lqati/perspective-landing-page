@@ -13,7 +13,7 @@ function Products() {
             <div className={styles.content}>
                 <h2 className={styles.sectionTitle}>Our Impressive Products</h2>
                 <hr className={styles.hr} />
-                <h3 className={styles.title}>Perspective Glasses<span className="dot">.</span></h3>
+                <h3 className={styles.title}>Perspective Glasses<span className={styles.dot}>.</span></h3>
                 <p className={styles.text}>
                     Smart glasses based on artificial intelligence that allow the user to read any picture by detecting the text. Perspective
                     Glasses can be used by visually impaired people, and those who struggle to read.
@@ -28,7 +28,7 @@ function Products() {
         <div className={styles.product1}>
             <img className={styles.productImg1} src={writing} alt="glasses" />
             <div className={styles.content1}>
-                <h3 className={styles.title}>Perspective Glasses<span className="dot">.</span></h3>
+                <h3 className={styles.title}>Perspective Glasses<span className={styles.dot}>.</span></h3>
                 <p className={styles.text}>
                     Smart glasses based on artificial intelligence that allow the user to read any picture by detecting the text. Perspective
                     Glasses can be used by visually impaired people, and those who struggle to read.

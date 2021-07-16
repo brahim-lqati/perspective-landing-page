@@ -69,7 +69,7 @@ const Team = () => {
     ]
   return (
     <div className={styles.teamContainer}>
-      <h2 className={styles.sectionTitle}>Our Hard-wroking Team</h2>
+      <h2 className={styles.sectionTitle}>Our Hard-working Team</h2>
       <hr className={styles.hr} />
 
       <Slider {...settings}>

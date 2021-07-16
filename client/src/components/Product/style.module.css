@@ -22,8 +22,8 @@ a {
   padding: 0 0 50px 0;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 50vw 40vw;
-      grid-template-columns: 50vw 40vw;
+  -ms-grid-columns: 35vw 55vw;
+      grid-template-columns: 35vw 55vw;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -42,13 +42,13 @@ a {
 .productImg {
   -ms-grid-column-align: right;
       justify-self: right;
-  height: 75vh;
+  height: 65vh;
 }
 
 .productImg1 {
   -ms-grid-column-align: left;
       justify-self: left;
-  height: 75vh;
+  height: 65vh;
 }
 
 .product {
@@ -100,7 +100,7 @@ a {
 }
 
 .sectionTitle {
-  font-size: 3rem;
+  font-size: 4rem;
   width: 100%;
   letter-spacing: 5px;
   font-weight: 700;
