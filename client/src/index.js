@@ -7,7 +7,8 @@ import Caption from './components/Caption';
 import Mission from './components/Mission';
 import Products from './components/Products';
 import Navbar from './components/Navbar';
-import Card from './components/Card'
+import Card from './components/Card';
+import Paterners from './components/Parteners'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,6 +16,7 @@ ReactDOM.render(
     <Caption />
     <Mission />
     <Products />
+    <Paterners />
     <Card />
     <Footer />
   </React.StrictMode>,
