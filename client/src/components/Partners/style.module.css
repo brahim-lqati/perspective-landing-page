@@ -19,25 +19,25 @@ a {
 }
 
 .parteners {
-  background: #0a0b0d;
-  color: white;
+  background: white;
+  color: #0a0b0d;
   padding: 5%;
 }
 
 .sectionTitle {
-  color: white;
-  font-size: 4rem;
-  width: 65%;
-  letter-spacing: 5px;
+  font-size: 3rem;
+  width: 100%;
+  letter-spacing: 2.5px;
   font-weight: 700;
+  text-align: center;
 }
 
 .hr {
-  margin: 25px 0 45px 0;
-  width: 10%;
+  position: relative;
   border: 2.5px solid #6db4f2;
   background-color: #6db4f2;
   border-radius: 25px;
+  margin: 25px 45% 35px 45%;
 }
 
 .list {

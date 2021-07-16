@@ -21,7 +21,9 @@ a {
   background-position: center;
   background-repeat: none;
   background-size: fill;
-  padding: 10% 5%;
+  padding: 5%;
+  margin: 0 5%;
+  border-radius: 30px;
   display: -ms-grid;
   display: grid;
   -webkit-box-align: center;

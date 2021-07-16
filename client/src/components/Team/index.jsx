@@ -63,7 +63,7 @@ const Team = () => {
     {
       firstname: "Meryem",
       lastname: "EL Kasmi",
-      team: "ML",
+      team: "Embarqué",
       image:"images/meryeme.png"
     },
     ]
@@ -75,7 +75,7 @@ const Team = () => {
       <Slider {...settings}>
       {team.map((person) =>(
             <div className={styles.card}>
-            <img className={styles.imagespace} src={person.image} height="100%" width="87.4%"/>
+            <img className={styles.imagespace} src={person.image} height="100%" width="88.6%"/>
             <div className={styles.desc}>
               <div className={styles.name}>
                 {person.firstname} <span className={styles.lname}>{person.lastname}</span>
