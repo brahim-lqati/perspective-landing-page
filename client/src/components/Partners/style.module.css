@@ -21,7 +21,7 @@ a {
 .parteners {
   background: #0a0b0d;
   color: white;
-  padding: 0 5% 2% 5%;
+  padding: 5%;
 }
 
 .sectionTitle {
@@ -33,7 +33,7 @@ a {
 }
 
 .hr {
-  margin: 25px 0 65px 0;
+  margin: 25px 0 45px 0;
   width: 10%;
   border: 2.5px solid #6db4f2;
   background-color: #6db4f2;
@@ -42,12 +42,12 @@ a {
 
 .list {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 7.5vw;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 2vw;
 }
 
 .logo {
   width: 100%;
-  border-radius: 25px;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=style.css.map */

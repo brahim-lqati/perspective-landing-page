@@ -11,6 +11,9 @@ function Partners() {
             <img className={styles.logo} src={orange} alt="Orange logo" />
             <img className={styles.logo} src={orange} alt="Orange logo" />
             <img className={styles.logo} src={orange} alt="Orange logo" />
+            <img className={styles.logo} src={orange} alt="Orange logo" />
+            <img className={styles.logo} src={orange} alt="Orange logo" />
+            <img className={styles.logo} src={orange} alt="Orange logo" />
         </div>
     </div>
     )
