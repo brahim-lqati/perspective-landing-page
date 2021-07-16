@@ -12,8 +12,8 @@ exports.store = asyncHandler(async(req, res) => {
         }
       });
       const emailMsg = `
-      <div style='background: rgba(149, 157, 16,0.3); padding:10px;  padding-left:20%;   padding-right:20%;'>
-      <h2 style='text-align:center'>HAF DONATIONS</h2>
+      <div style='background: #121524; padding:10px;  padding-left:20%;   padding-right:20%;'>
+      <h2 style='text-align:center; color: white'>PERSECTIVE</h2>
       <div style=' background: #fff; padding:10px; padding-left:10%;   padding-right:10%;'>
         <h3>HELLO</h3>
         <b>you have a new message from :</b>
@@ -23,7 +23,6 @@ exports.store = asyncHandler(async(req, res) => {
           <div style='display:flex; align-item:center'>
           <h5 style='margin-top:10px;'>MESSAGE :</h5> <h5 style='margin:10px;'>${content}</h5></div>
         </div>
-        <button style='background: #fff; color: #839c44; padding:10px; border-color:#839c44; '>See message</button>
     </div>
       <h6 style='text-align:center'>&copy; HAF. All rights reserved.</h6>
     </div>

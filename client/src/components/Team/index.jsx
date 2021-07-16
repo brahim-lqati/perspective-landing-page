@@ -23,65 +23,65 @@ const Team = () => {
     slidesToShow: 3,
     speed: 500
   };
-
+  const team = [
+    {
+      firstname: "Omar",
+      lastname: "Houti",
+      team: "Embarqué",
+      image:"images/omar.png"
+    },
+    {
+      firstname: "Brahim",
+      lastname: "LQATI",
+      team: "DEV",
+      image:"images/brahim.png"
+    },
+    {
+      firstname: "Mahmoud",
+      lastname: "Fettal",
+      team: "DEV",
+      image:"images/mahmoud.png"
+    },
+    {
+      firstname: "Maroua",
+      lastname: "Lboukili",
+      team: "Marketing",
+      image:"images/maroua.png"
+    },
+    {
+      firstname: "Ismail",
+      lastname: "Baouham",
+      team: "Embarqué",
+      image:"images/ismail.png"
+    },
+    {
+      firstname: "Choukri",
+      lastname: "EL Ouastani",
+      team: "ML",
+      image:"images/omar.png"
+    },
+    {
+      firstname: "Meryem",
+      lastname: "EL Kasmi",
+      team: "ML",
+      image:"images/meryem.png"
+    },
+    ]
   return (
     <div>
     <h2>Auto Play</h2>
     <Slider {...settings}>
-    <div className={styles.card}>
-      <img src="images/brahim.png" height="100%" width="100%"/>
-      <div className={styles.desc}>
-        <div className={styles.name}>
-          Brahim <span className={styles.lname}>Lqati</span>
-        </div>
-        <div className={styles.team}>Developement Team</div>
-      </div>
-    </div>
-    <div className={styles.card}>
-      <img src="images/brahim.png" height="100%" width="100%"/>
-      <div className={styles.desc}>
-        <div className={styles.name}>
-          Brahim <span className={styles.lname}>Lqati</span>
-        </div>
-        <div className={styles.team}>Developement Team</div>
-      </div>
-    </div>
-    <div className={styles.card}>
-      <img src="images/mahmoud.png" height="100%" width="100%"/>
-      <div className={styles.desc}>
-        <div className={styles.name}>
-          Brahim <span className={styles.lname}>Lqati</span>
-        </div>
-        <div className={styles.team}>Developement Team</div>
-      </div>
-    </div>
-    <div className={styles.card}>
-      <img src="images/Maroua.png" height="100%" width="100%"/>
-      <div className={styles.desc}>
-        <div className={styles.name}>
-          Brahim <span className={styles.lname}>Lqati</span>
-        </div>
-        <div className={styles.team}>Developement Team</div>
-      </div>
-    </div>
-    <div className={styles.card}>
-      <img src="images/omar.png" height="100%" width="100%"/>
-      <div className={styles.desc}>
-        <div className={styles.name}>
-          Brahim <span className={styles.lname}>Lqati</span>
-        </div>
-        <div className={styles.team}>Developement Team</div>
-      </div>
-    </div>
-    <div className={styles.card}>
-      <img src="images/choukri.png" height="100%" width="100%"/>
-      <div className={styles.desc}>
-        <div className={styles.name}>
-          Brahim <span className={styles.lname}>Lqati</span>
-        </div>
-        <div className={styles.team}>Developement Team</div>
-      </div>
-    </div>
+      {team.map((person) =>(
+            <div className={styles.card}>
+            <img src={person.image} height="100%" width="100%"/>
+            <div className={styles.desc}>
+              <div className={styles.name}>
+                {person.firstname} <span className={styles.lname}>{person.lastname}</span>
+              </div>
+              <div className={styles.team}>{person.team}</div>
+            </div>
+          </div>
+      ))}
 
     </Slider>
   </div>

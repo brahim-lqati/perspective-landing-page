@@ -29,6 +29,7 @@ const Home = () => {
           <Caption />
           <Mission />
           <Product />
+          <Team />
           <Partners />
           <Footer />
         </> 
