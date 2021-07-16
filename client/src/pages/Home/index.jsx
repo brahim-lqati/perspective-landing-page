@@ -31,7 +31,6 @@ const Home = () => {
           <Product />
           <Team />
           <Partners />
-          <Team />
           <Footer />
         </> 
     )

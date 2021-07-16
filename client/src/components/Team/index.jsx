@@ -15,39 +15,13 @@ import styles from "./style.module.css";
 const Team = () => {
   const settings = {
     dots: true,
-    infinite: false,
-    speed: 300,
-    slidesToShow: 4,
-    slidesToScroll: 4,
-    centerMargin: 30,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
-    ],
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 2000,
+    cssEase: "linear"
   };
   const team = [
     {
@@ -84,7 +58,7 @@ const Team = () => {
       firstname: "Choukri",
       lastname: "EL Ouastani",
       team: "ML",
-      image:"images/omar.png"
+      image:"images/choukri.png"
     },
     {
       firstname: "Meryem",
@@ -94,12 +68,14 @@ const Team = () => {
     },
     ]
   return (
-    <div>
-    <h2>Auto Play</h2>
-    <Slider {...settings}>
+    <div className={styles.teamContainer}>
+      <h2 className={styles.sectionTitle}>Our Hard-wroking Team</h2>
+      <hr className={styles.hr} />
+
+      <Slider {...settings}>
       {team.map((person) =>(
             <div className={styles.card}>
-            <img src={person.image} height="100%" width="100%"/>
+            <img className={styles.imagespace} src={person.image} height="100%" width="87.4%"/>
             <div className={styles.desc}>
               <div className={styles.name}>
                 {person.firstname} <span className={styles.lname}>{person.lastname}</span>
@@ -108,9 +84,8 @@ const Team = () => {
             </div>
           </div>
       ))}
-
-    </Slider>
-  </div>
+      </Slider>
+    </div>
   );
 };
 
