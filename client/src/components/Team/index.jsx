@@ -19,6 +19,7 @@ const Team = () => {
     speed: 300,
     slidesToShow: 4,
     slidesToScroll: 4,
+    centerMargin: 30,
     responsive: [
       {
         breakpoint: 1024,
@@ -55,7 +56,7 @@ const Team = () => {
       <hr className={styles.hr} />
       <Slider {...settings}>
         <div className={styles.card}>
-          <img src="images/brahim.png" height="100%" width="100%" />
+          <img className={styles.imagespace} src="images/brahim.png" height="100%" width="88.5%" />
           <div className={styles.desc}>
             <div className={styles.name}>
               Brahim <span className={styles.lname}>Lqati</span>
@@ -64,7 +65,7 @@ const Team = () => {
           </div>
         </div>
         <div className={styles.card}>
-          <img src="images/mahmoud.png" height="100%" width="100%" />
+          <img className={styles.imagespace} src="images/mahmoud.png" height="100%" width="88.5%" />
           <div className={styles.desc}>
             <div className={styles.name}>
               Brahim <span className={styles.lname}>Lqati</span>
@@ -73,7 +74,7 @@ const Team = () => {
           </div>
         </div>
         <div className={styles.card}>
-          <img src="images/Maroua.png" height="100%" width="100%" />
+          <img className={styles.imagespace} src="images/Maroua.png" height="100%" width="88.5%" />
           <div className={styles.desc}>
             <div className={styles.name}>
               Brahim <span className={styles.lname}>Lqati</span>
@@ -82,7 +83,7 @@ const Team = () => {
           </div>
         </div>
         <div className={styles.card}>
-          <img src="images/omar.png" height="100%" width="100%" />
+          <img className={styles.imagespace} src="images/omar.png" height="100%" width="88.5%" />
           <div className={styles.desc}>
             <div className={styles.name}>
               Brahim <span className={styles.lname}>Lqati</span>
@@ -91,7 +92,7 @@ const Team = () => {
           </div>
         </div>
         <div className={styles.card}>
-          <img src="images/choukri.png" height="100%" width="100%" />
+          <img className={styles.imagespace} src="images/choukri.png" height="100%" width="88.5%" />
           <div className={styles.desc}>
             <div className={styles.name}>
               Brahim <span className={styles.lname}>Lqati</span>
@@ -100,7 +101,7 @@ const Team = () => {
           </div>
         </div>
         <div className={styles.card}>
-          <img src="images/ismail.png" height="100%" width="100%" />
+          <img className={styles.imagespace} src="images/ismail.png" height="100%" width="88.5%" />
           <div className={styles.desc}>
             <div className={styles.name}>
               Brahim <span className={styles.lname}>Lqati</span>

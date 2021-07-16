@@ -17,7 +17,6 @@ a {
   display: grid;
   background-position: center;
   background-size: contain;
-  margin: 0 100px;
 }
 
 .desc {
@@ -25,6 +24,11 @@ a {
   color: black;
   text-align: center;
   padding: 25px 0;
+  margin: 0 25px;
+}
+
+.imagespace {
+  margin: 0 25px;
 }
 
 .name {
@@ -46,7 +50,7 @@ a {
 .sectionTitle {
   color: white;
   font-size: 4rem;
-  width: 45%;
+  width: 65%;
   letter-spacing: 5px;
   font-weight: 700;
 }
