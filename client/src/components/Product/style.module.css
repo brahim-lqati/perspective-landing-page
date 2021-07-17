@@ -48,7 +48,7 @@ a {
 }
 
 .dot {
-  color: #6db4f2;
+  color: #F2055C;
 }
 
 .icon {
@@ -58,8 +58,8 @@ a {
 .btnPrimary {
   padding: 10px 25px;
   border-radius: 100px;
-  background: #6db4f2;
-  color: black;
+  background: #F2055C;
+  color: white;
   font-weight: 600;
   margin-right: 30px;
 }
@@ -82,8 +82,8 @@ a {
 
 .hr {
   position: relative;
-  border: 2.5px solid #6db4f2;
-  background-color: #6db4f2;
+  border: 2.5px solid #F2055C;
+  background-color: #F2055C;
   border-radius: 25px;
   margin: 25px 45% 35px 45%;
 }

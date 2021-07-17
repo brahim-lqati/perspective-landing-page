@@ -16,7 +16,7 @@ a {
 .title {
   font-size: 1.25rem;
   font-weight: 600;
-  color: #6db4f2;
+  color: #F2055C;
 }
 
 .mission {
@@ -53,7 +53,7 @@ a {
 }
 
 .dot {
-  color: #6db4f2;
+  color: #F2055C;
 }
 
 .sectionTitle {
@@ -66,8 +66,8 @@ a {
 
 .hr {
   position: relative;
-  border: 2.5px solid #6db4f2;
-  background-color: #6db4f2;
+  border: 2.5px solid #F2055C;
+  background-color: #F2055C;
   border-radius: 25px;
   margin: 25px 45% 35px 45%;
 }

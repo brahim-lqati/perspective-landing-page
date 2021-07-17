@@ -30,16 +30,16 @@ body {
   .btnbuy {
     text-decoration: none;
     font-size: 1rem;
-    border: 1.5px solid black;
+    border: 1.5px solid #F2055C;
     background: transparent;
-    color: black;
+    color: #F2055C;
     padding: 5px 30px;
     border-radius: 50px;
     margin-left: 20px;
   }
   
   .btnbuy:hover {
-    background: black;
+    background: #F2055C;
     color: white;
     transition: .5s;
   }
