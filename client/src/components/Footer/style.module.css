@@ -24,11 +24,13 @@ footer {
 
 .company img {
   width: 100%;
+  margin-bottom: 15px;
 }
 
 .companyText {
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   font-weight: 400;
+  opacity: 0.75;
 }
 
 .social-media i {
@@ -42,7 +44,7 @@ footer {
 
 .smallTitle {
   font-weight: 700;
-  font-size: 1.25rem;
+  font-size: 1.45rem;
 }
 
 .links {
@@ -53,6 +55,7 @@ footer {
   color: white;
   opacity: 0.5;
   display: block;
+  font-size: 1.2rem;
 }
 
 .links a:hover {
@@ -60,7 +63,7 @@ footer {
 }
 
 .dot {
-  color: #F2055C;
+  color: #f2055c;
 }
 
 .hr {
@@ -71,11 +74,50 @@ footer {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 2fr 1fr 1fr 1fr;
-      grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
 }
 
 .copyright {
   font-size: 1.05rem;
   opacity: 0.8;
   font-weight: 400;
+  padding-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1.5fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .wrapper {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+  .company img {
+    width: 100%;
+  }
+  .smallTitle {
+    font-size: 1.25rem;
+    margin-top: 10px;
+  }
+  .links a {
+    font-size: 1rem;
+  }
+
+  .companyText {
+    font-size: 1rem;
+    font-weight: 400;
+    opacity: 0.75;
+  }
+  footer {
+    padding: 10% 5% 2% 5%;
+    background: #0a0b0d;
+    color: white;
+  }
+  
 }

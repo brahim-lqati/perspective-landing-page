@@ -22,11 +22,10 @@ a {
 .mission {
   background: white;
   color: #0a0b0d;
-  padding: 2% 5% 2% 5%;
+  padding: 5%;
 }
 
 .wrapper {
-  padding: 1% 0;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
@@ -38,8 +37,8 @@ a {
 }
 
 .moto {
-  font-size: 1.5rem;
-  padding: 0 20%;
+  font-size: 2rem;
+  padding: 20px 20%;
   font-weight: 700;
   text-align: center;
 }
@@ -49,7 +48,7 @@ a {
   padding: 0 20%;
   font-weight: 300;
   opacity: .9;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .dot {
@@ -70,4 +69,37 @@ a {
   background-color: #F2055C;
   border-radius: 25px;
   margin: 25px 45% 35px 45%;
+}
+
+@media (max-width: 1024px) {
+  .sectionTitle {
+    font-size: 2.5rem;
+  }
+  .moto {
+    font-size: 1.5rem;
+    padding: 20px 15%;
+  }
+  
+  .pText {
+    padding: 0 15%;
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .sectionTitle {
+    font-size: 1.5rem;
+  }
+  .moto {
+    font-size: 1.25rem;
+    padding: 20px 5%;
+  }
+  
+  .pText {
+    padding: 0 5%;
+    font-size: .9rem;
+  }
+  .hr {
+    margin: 25px 40% 5px 40%;
+  }
 }

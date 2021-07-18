@@ -1,19 +1,9 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  padding: 0;
-}
-
 a {
   text-decoration: none;
 }
 
 .dot {
-  color: #F2055C;
+  color: #f2055c;
 }
 
 .main {
@@ -26,25 +16,29 @@ a {
   display: -ms-grid;
   display: grid;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   color: white;
 }
 
 .caption {
   width: 45vw;
-  padding: 7% 0 7% 5%;
-  background: linear-gradient(90deg, rgba(2, 17, 64, 0.75) 0, rgba(2, 17, 64, 0) 100%);;
+  padding: 7% 0 9% 5%;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 17, 64, 0.75) 0,
+    rgba(2, 17, 64, 0) 100%
+  );
 }
 
 .caption h1 {
-  font-size: 6rem;
+  font-size: 8rem;
 }
 
 .caption h2 {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 400;
-  opacity: .75;
+  opacity: 0.75;
   padding-right: 25%;
   margin: 20px 0 50px 0;
 }
@@ -54,19 +48,104 @@ a {
 }
 
 .btnPrimary {
+  font-size: 1.35rem;
   padding: 15px 35px;
   border-radius: 100px;
-  background: #F2055C;
+  background: #f2055c;
   color: white;
   font-weight: 600;
   margin-right: 30px;
 }
 
 .btnWhite {
+  font-size: 1.35rem;
   padding: 15px 35px;
   border-radius: 100px;
   background: white;
   color: black;
   font-weight: 600;
+}
+
+@media (max-width: 1400px) {
+  .main {
+    background-position: bottom;
+  }
+  .caption {
+    width: 55vw;
+  }
+
+  .caption h1 {
+    font-size: 6rem;
+  }
+
+  .caption h2 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main {
+    background-position: bottom;
+    background-size: contain;
+  }
+  .caption {
+    width: 55vw;
+  }
+
+  .caption h1 {
+    font-size: 4rem;
+  }
+
+  .caption h2 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    background-position: bottom;
+  }
+  .caption {
+    width: 75vw;
+  }
+
+  .caption h1 {
+    font-size: 3rem;
+  }
+
+  .caption h2 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .main {
+    background-position: bottom;
+  }
+  .caption {
+    width: 100vw;
+    padding: 15% 0 15% 5%;
+  }
+
+  .caption h1 {
+    font-size: 2rem;
+  }
+
+  .caption h2 {
+    font-size: .8rem;
+    margin: 20px 0 20px 0;
+  }
+  .btnPrimary {
+    font-size: .8rem;
+    padding: 7px 20px;
+  }
+  
+  .btnWhite {
+    font-size: .8rem;
+    margin-top: 15px;
+    padding: 7px 20px;
+    display: block;
+    width: fit-content;
+  }
 }
 /*# sourceMappingURL=style.css.map */

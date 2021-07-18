@@ -1,45 +1,51 @@
-body {
-    font-family: "Source Sans Pro", sans-serif;
-    background-color: white;
-  }
-  
-  nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    padding: 2% 5%;
-  }
-  
-  .logo {
-    height: 1.5rem;
-  }
-  
-  .link {
-    margin: 0 20px;
-    color: black;
-    text-decoration: none;
-    font-size: 1rem;
-  }
-  
+.nav {
+  margin: 0;
+  padding: 15px 5%;
+}
+
+.logo {
+  height: 1.5rem;
+}
+
+.links {
+  justify-content: flex-end;
+}
+
+.link {
+  margin: 10px 20px;
+  color: black;
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: block;
+  opacity: .75;
+}
+
+.link:hover {
+  color: black;
+  opacity: 1;
+}
+
+.btnbuy {
+  text-decoration: none;
+  font-size: 1.2rem;
+  border: 1.5px solid #f2055c;
+  background: transparent;
+  color: #f2055c;
+  padding: 5px 30px;
+  border-radius: 50px;
+  margin-left: 20px;
+  width: fit-content;
+}
+
+.btnbuy:hover {
+  background: #f2055c;
+  color: white;
+  transition: 0.5s;
+}
+
+@media (max-width: 1024px) {
+  .link,
   .btnbuy {
-    text-decoration: none;
     font-size: 1rem;
-    border: 1.5px solid #F2055C;
-    background: transparent;
-    color: #F2055C;
-    padding: 5px 30px;
-    border-radius: 50px;
-    margin-left: 20px;
   }
-  
-  .btnbuy:hover {
-    background: #F2055C;
-    color: white;
-    transition: .5s;
-  }
+}

@@ -10,9 +10,9 @@ function Footer() {
         <div className={styles.company}>
           <img src={logo} alt="Perspective" />
           <p className={styles.companyText}>
-            Embrace Your Vision <span className={styles.dot}>.</span> <br />
+            Embrace Your Vision<span className={styles.dot}>.</span> <br />
             It’s our ambition to Help visiualy impeared people intgrate school
-            better <span className="dot">.</span>
+            better<span className={styles.dot}>.</span>
           </p>
         </div>
         <section className={styles.section}>

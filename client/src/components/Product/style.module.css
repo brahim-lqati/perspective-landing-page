@@ -1,13 +1,3 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  padding: 0;
-}
-
 a {
   text-decoration: none;
 }
@@ -25,7 +15,7 @@ a {
 }
 
 .productImg {
-  height: 50vh;
+  height: 35vw;
   padding-bottom: 50px;
 }
 
@@ -42,13 +32,13 @@ a {
 }
 
 .text {
-  opacity: .75;
+  opacity: 0.75;
   margin: 20px 0 40px 0;
   text-align: center;
 }
 
 .dot {
-  color: #F2055C;
+  color: #f2055c;
 }
 
 .icon {
@@ -58,7 +48,7 @@ a {
 .btnPrimary {
   padding: 10px 25px;
   border-radius: 100px;
-  background: #F2055C;
+  background: #f2055c;
   color: white;
   font-weight: 600;
   margin-right: 30px;
@@ -82,8 +72,8 @@ a {
 
 .hr {
   position: relative;
-  border: 2.5px solid #F2055C;
-  background-color: #F2055C;
+  border: 2.5px solid #f2055c;
+  background-color: #f2055c;
   border-radius: 25px;
   margin: 25px 45% 35px 45%;
 }
@@ -92,4 +82,56 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 50px;
+}
+
+@media (max-width: 1024px) {
+  .sectionTitle {
+    font-size: 2.5rem;
+  }
+
+  .title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .text {
+    opacity: 0.75;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 50px;
+  }
+
+  .title {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .productImg {
+    height: 30vh;
+  }
+  .text {
+    opacity: 0.75;
+    font-size: 1rem;
+    margin: 10%;
+  }
+}
+
+@media (max-width: 576px) {
+  .sectionTitle {
+    font-size: 1.5rem;
+  }
+  .content {
+    padding: 0;
+  }
+  .productImg {
+    height: 45vh;
+  }
+  .hr {
+    margin: 25px 40% 25px 40%;
+  }
 }
