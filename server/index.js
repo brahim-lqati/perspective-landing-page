@@ -2,8 +2,8 @@ const express = require('express');
 const path = require('path');
 const app = express();
 require('dotenv').config();
-const publicPath = path.join(__dirname, '..', 'public');
-app.use(express.static(publicPath));
+
+app.use(express.static(path.resolve(__dirname, "./client/build")));
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
