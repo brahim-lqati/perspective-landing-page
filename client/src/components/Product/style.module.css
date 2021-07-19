@@ -15,7 +15,7 @@ a {
 }
 
 .productImg {
-  height: 35vw;
+  height: 30vw;
   padding-bottom: 50px;
 }
 
@@ -45,6 +45,10 @@ a {
   padding-right: 10px;
 }
 
+.btns {
+  display: flex;
+}
+
 .btnPrimary {
   padding: 10px 25px;
   border-radius: 100px;
@@ -52,6 +56,8 @@ a {
   color: white;
   font-weight: 600;
   margin-right: 30px;
+  display: flex;
+  align-items: center;
 }
 
 .btnWhite {
@@ -60,6 +66,8 @@ a {
   background: black;
   color: white;
   font-weight: 600;
+  display: flex;
+  align-items: center;
 }
 
 .sectionTitle {
@@ -82,6 +90,10 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 50px;
+}
+
+.icon {
+  font-size: 1.5rem;
 }
 
 @media (max-width: 1024px) {
@@ -129,9 +141,22 @@ a {
     padding: 0;
   }
   .productImg {
-    height: 45vh;
+    height: 40vh;
   }
   .hr {
     margin: 25px 40% 25px 40%;
   }
+}
+
+@media (max-width: 350px) {
+  .btnWhite {
+    display: block;
+    margin-top: 20px;
+  }
+  
+  .sectionTitle {
+    display: block;
+    width: fit-content;
+  }
+  
 }

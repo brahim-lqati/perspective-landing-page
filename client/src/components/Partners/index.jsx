@@ -4,7 +4,7 @@ import orange from  "./logo-orange.jpg";
 
 function Partners() {
     return (
-    <div className={styles.parteners}>
+    <div id="partners" className={styles.parteners}>
         <h2 className={styles.sectionTitle}>Our Amazing Partners</h2>
         <hr className={styles.hr} />
         <div className={styles.list}>

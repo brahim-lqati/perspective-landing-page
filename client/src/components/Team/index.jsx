@@ -95,7 +95,7 @@ const Team = () => {
   let i = 0;
 
   return (
-    <div className={styles.teamContainer}>
+    <div id="team"  className={styles.teamContainer}>
       <h2 className={styles.sectionTitle}>Our Hard-working Team</h2>
       <hr className={styles.hr} />
 

@@ -16,25 +16,25 @@ function Navigation() {
       <Navbar.Toggle />
       <Navbar.Collapse className={styles.links}>
         <Nav>
-          <a className={styles.link} href="#home">
+          <a className={styles.link} href="#">
             Home
           </a>
-          <a className={styles.link} href="#link">
+          <a className={styles.link} href="#mission">
             Mission
           </a>
-          <a className={styles.link} href="#home">
+          <a className={styles.link} href="#products">
             Products
           </a>
-          <a className={styles.link} href="#link">
+          <a className={styles.link} href="#team">
             Team
           </a>
-          <a className={styles.link} href="#home">
+          <a className={styles.link} href="#partners">
             Paterns
           </a>
-          <a className={styles.link} href="#link">
+          <a className={styles.link} href="/contact">
             Contact Us
           </a>
-          <a className={styles.btnbuy} href="#link">
+          <a className={styles.btnbuy} href="#">
             Buy
           </a>
         </Nav>

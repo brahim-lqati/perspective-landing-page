@@ -10,7 +10,7 @@ import {
 
 function Products() {
   return (
-    <div className={styles.products}>
+    <div id="products" className={styles.products}>
       <h2 className={styles.sectionTitle}>Our Impressive Products</h2>
       <hr className={styles.hr} />
       <div className={styles.wrapper}>
@@ -26,7 +26,7 @@ function Products() {
               be used by visually impaired people, and those who struggle to
               read.
             </p>
-            <div className="btns">
+            <div className={styles.btns}>
               <a className={styles.btnPrimary} href="#">
                 <FontAwesomeIcon
                   className={styles.icon}
@@ -48,12 +48,11 @@ function Products() {
               Perspective Writing<span className={styles.dot}>.</span>
             </h3>
             <p className={styles.text}>
-              Smart glasses based on artificial intelligence that allow the user
-              to read any picture by detecting the text. Perspective Glasses can
-              be used by visually impaired people, and those who struggle to
-              read.
+              Perspective Writing is a pen that allows its user to overcome his
+              disability and get even more autonomy and independence through a
+              pen plotter.
             </p>
-            <div className="btns">
+            <div className={styles.btns}>
               <a className={styles.btnPrimary} href="#">
                 <FontAwesomeIcon
                   className={styles.icon}
