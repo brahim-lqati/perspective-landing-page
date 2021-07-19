@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.be500126.chunk.css",
+    "main.js": "/static/js/main.9df4314a.chunk.js",
+    "main.js.map": "/static/js/main.9df4314a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7545a8a1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7545a8a1.js.map",
+    "static/css/2.afba5098.chunk.css": "/static/css/2.afba5098.chunk.css",
+    "static/js/2.491e17cb.chunk.js": "/static/js/2.491e17cb.chunk.js",
+    "static/js/2.491e17cb.chunk.js.map": "/static/js/2.491e17cb.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.afba5098.chunk.css.map": "/static/css/2.afba5098.chunk.css.map",
+    "static/css/main.be500126.chunk.css.map": "/static/css/main.be500126.chunk.css.map",
+    "static/js/2.491e17cb.chunk.js.LICENSE.txt": "/static/js/2.491e17cb.chunk.js.LICENSE.txt",
+    "static/media/style.module.css": "/static/media/background.d8ede34e.jpg",
+    "static/media/glasses.49fce43c.png": "/static/media/glasses.49fce43c.png",
+    "static/media/logo-orange.4707e973.jpg": "/static/media/logo-orange.4707e973.jpg",
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf",
+    "static/media/writing.c38220a3.png": "/static/media/writing.c38220a3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7545a8a1.js",
+    "static/css/2.afba5098.chunk.css",
+    "static/js/2.491e17cb.chunk.js",
+    "static/css/main.be500126.chunk.css",
+    "static/js/main.9df4314a.chunk.js"
+  ]
+}
