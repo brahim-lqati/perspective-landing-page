@@ -2,6 +2,12 @@
   margin: 0;
   padding: 15px 5%;
 }
+.navActive {
+  margin: 0;
+  padding: 15px 5%;
+  background-color: #121524 !important;
+}
+
 
 .logo {
   height: 1.5rem;
@@ -19,9 +25,17 @@
   display: block;
   opacity: .75;
 }
+.test {
+  color: white;
+}
 
 .link:hover {
   color: black;
+  opacity: 1;
+}
+
+.test:hover {
+  color: white;
   opacity: 1;
 }
 
@@ -35,6 +49,11 @@
   border-radius: 50px;
   margin-left: 20px;
   width: fit-content;
+}
+.btnbuyActive {
+  color: white;
+  border: 1.5px solid white;
+
 }
 
 .btnbuy:hover {
