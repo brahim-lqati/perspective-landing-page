@@ -10,7 +10,7 @@ app.use(express.json());
 
 app.use("/api",require('./routes/api/contact.routes'));
 
-app.listen(process.env.PORT, () => {
+app.listen(process.env.PORT || 5000, () => {
     console.log(`server running in port ${process.env.PORT}`);
 })
 
