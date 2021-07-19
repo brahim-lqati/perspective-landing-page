@@ -63,7 +63,7 @@ const Team = () => {
       firstname: "Maroua",
       lastname: "Lboukili",
       team: "Marketing",
-      image: "images/maroua.png",
+      image: "images/Maroua.png",
     },
     {
       firstname: "Ismail",
