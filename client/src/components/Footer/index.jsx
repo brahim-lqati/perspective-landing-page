@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./style.module.css";
-import logo from "./PERSPECTIVE.svg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Footer() {
@@ -8,7 +7,7 @@ function Footer() {
     <footer>
       <div className={styles.wrapper}>
         <div className={styles.company}>
-          <img src={logo} alt="Perspective" />
+          <img className={styles.logo} src={"logo/perception_white.svg"} alt="Perspective" />
           <p className={styles.companyText}>
             Embrace Your Vision<span className={styles.dot}>.</span> <br />
             It’s our ambition to Help visiualy impeared people intgrate school
