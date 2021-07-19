@@ -1,8 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import styles from "./style.module.css";
+import './style.css'
 import { Nav, Navbar } from "react-bootstrap";
 import React, {useState} from "react";
+
 function Navigation() {
   const [scroll, setScroll] = useState(false);
   const changeBackground = () => {
@@ -19,7 +21,7 @@ function Navigation() {
           alt="perception"
         />
       </Navbar.Brand>
-      <Navbar.Toggle />
+      <Navbar.Toggle className={scroll ? styles.menuLight : styles.menuDark} />
       <Navbar.Collapse className={styles.links}>
         <Nav>
           <a className={scroll ? [styles.link, styles.test].join(" ") : styles.link} href="#">
