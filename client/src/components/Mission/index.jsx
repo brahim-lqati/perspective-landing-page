@@ -12,7 +12,7 @@ function Mission() {
           better<span className={styles.dot}>.</span>
         </h2>
         <p className={styles.pText}>
-          Our ambitions is to harness the power of AI to create hardware and
+          Our ambition is to harness the power of AI to create hardware and
           software that is user-friendly, engaging and inclusive for people that
           are visually impaired so they can get the best education possible like
           everyone else.

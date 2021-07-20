@@ -20,7 +20,7 @@ function Footer() {
           </h5>
           <div className={styles.links}>
             <a href="#">Perspective Glasses</a>
-            <a href="#">Perspective Glasses</a>
+            <a href="#">Perspective Writing</a>
             <a href="#">Contact Us</a>
           </div>
         </section>
@@ -30,7 +30,7 @@ function Footer() {
           </h5>
           <div className={styles.links}>
             <a href="#">Perspective Glasses</a>
-            <a href="#">Perspective Glasses</a>
+            <a href="#">Perspective Writing</a>
             <a href="#">Blog</a>
             <a href="#">Contact Us</a>
           </div>
@@ -41,7 +41,7 @@ function Footer() {
           </h5>
           <div className={styles.links}>
             <a href="#">Perspective Glasses</a>
-            <a href="#">Perspective Glasses</a>
+            <a href="#">Perspective Writing</a>
             <a href="#">Blog</a>
             <a href="#">Contact Us</a>
           </div>

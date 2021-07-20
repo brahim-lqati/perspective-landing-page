@@ -116,6 +116,14 @@ a {
   .caption h2 {
     font-size: 1rem;
   }
+
+  .btnPrimary {
+    font-size: .9rem;
+  }
+  
+  .btnWhite {
+    font-size: .9rem;
+  }
 }
 
 @media (max-width: 576px) {
