@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./style.module.css";
 import orange from "./logo-orange.jpg";
-import Card from "../Card";
 import Title from "../Title";
 
 function Partners() {

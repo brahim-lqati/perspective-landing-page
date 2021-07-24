@@ -2,7 +2,6 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import styles from "./style.module.css";
 import Card from "../Card";
 import Title from "../Title";
 
@@ -86,7 +85,6 @@ const Team = () => {
       image: "images/meryeme.png",
     },
   ];
-  let i = 0;
 
   return (
     <div id="team">

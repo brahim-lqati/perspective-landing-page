@@ -15,7 +15,7 @@
 
 .moto {
   font-size: 1.25rem;
-  color: rgba(0, 0, 0, .5);
+  color: rgba(0, 0, 0, .75);
   padding: 0;
   font-weight: 400;
 }
@@ -58,7 +58,6 @@
     margin-bottom: 25px;
   }
   .mission {
-    padding: 10% 5%;
     grid-template-columns: 1fr;
   }
   .icons {

@@ -23,6 +23,11 @@
 }
 
 @media (max-width: 576px) {
+  .card {
+    background: #DDDDDD;
+    padding: 3% 10% 5% 10%;
+  }
+  
   .sectionTitle {
     margin-top: 20px;
     font-size: 1.5rem;

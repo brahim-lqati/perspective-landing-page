@@ -23,7 +23,7 @@ function Products() {
       <Card id="products">
         <Title title="Our Impressive Products" />
         {data.map((product) => (
-          <Product data={product} />
+          <Product key={product.name} data={product} />
         ))}
       </Card>
     </div>

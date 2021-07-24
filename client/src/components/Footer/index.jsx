@@ -22,9 +22,9 @@ function Footer() {
           </div>
         </div>
         <section className={styles.section}>
-          <h5 className={styles.smallTitle}>
+          <h6 className={styles.smallTitle}>
             For businesses<span className={styles.dot}>.</span>
-          </h5>
+          </h6>
           <div className={styles.links}>
             <a href="#">Perspective Glasses</a>
             <a href="#">Perspective Writing</a>
@@ -32,9 +32,9 @@ function Footer() {
           </div>
         </section>
         <section>
-          <h5 className={styles.smallTitle}>
+          <h6 className={styles.smallTitle}>
             For Schools<span className={styles.dot}>.</span>
-          </h5>
+          </h6>
           <div className={styles.links}>
             <a href="#">Perspective Glasses</a>
             <a href="#">Perspective Writing</a>
@@ -43,9 +43,9 @@ function Footer() {
           </div>
         </section>
         <section className={styles.section}>
-          <h5 className={styles.smallTitle}>
+          <h6 className={styles.smallTitle}>
             For Individuals<span className={styles.dot}>.</span>
-          </h5>
+          </h6>
           <div className={styles.links}>
             <a href="#">Perspective Glasses</a>
             <a href="#">Perspective Writing</a>

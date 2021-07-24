@@ -100,6 +100,7 @@ footer {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     grid-gap: 30px;
+    padding: ;
   }
   .company img {
     width: 100%;
@@ -118,7 +119,7 @@ footer {
     opacity: 0.75;
   }
   footer {
-    padding: 10% 5% 2% 5%;
+    padding: 10% 10% 2% 10%;
     background: #0a0b0d;
     color: white;
   }
