@@ -1,20 +1,17 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
 footer {
   padding: 5% 5% 2% 5%;
   background: #0a0b0d;
+  color: white;
+}
+
+.media {
+  width: fit-content;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+}
+
+.media a {
   color: white;
 }
 
@@ -48,7 +45,7 @@ footer {
 }
 
 .links {
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .links a {
@@ -63,7 +60,7 @@ footer {
 }
 
 .dot {
-  color: #f2055c;
+  color: #26d0ce;
 }
 
 .hr {
@@ -94,6 +91,7 @@ footer {
     display: grid;
     -ms-grid-columns: 1.5fr 1fr;
     grid-template-columns: 1.5fr 1fr;
+    grid-gap: 30px;
   }
 }
 
@@ -101,6 +99,7 @@ footer {
   .wrapper {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+    grid-gap: 30px;
   }
   .company img {
     width: 100%;

@@ -1,24 +1,46 @@
 import React from "react";
 import styles from "./style.module.css";
+import { Row, Col } from "react-bootstrap";
+import Title from "../Title";
+import Card from "../Card";
 
 function Mission() {
   return (
-    <div id="mission" className={styles.mission}>
-      <h2 className={styles.sectionTitle}>What is our mission</h2>
-      <hr className={styles.hr} />
-      <div className={styles.wrapper}>
-        <h2 className={styles.moto}>
-          It’s our ambition to Help visiualy impaired people integrate school
-          better<span className={styles.dot}>.</span>
-        </h2>
-        <p className={styles.pText}>
-          Our ambition is to harness the power of AI to create hardware and
-          software that is user-friendly, engaging and inclusive for people that
-          are visually impaired so they can get the best education possible like
-          everyone else.
-        </p>
+    <Card id="mission">
+      <div className={styles.mission}>
+        <div className={styles.content}>
+          <Title title="What is our mission" />
+          <h2 className={styles.moto}>
+            It’s our to ambition harness the power of AI to Help visiualy
+            impaired people integrate school better with custom builed Hardware
+            and Software that is <span className={styles.dot}>:</span>
+          </h2>
+        </div>
+        <Row className={styles.row}>
+          <Col className={styles.col} xs={4}>
+            <img
+              className={styles.icons}
+              src="icons/User.svg"
+              alt="user friendly"
+            />
+          </Col>
+          <Col className={styles.col} xs={4}>
+            <img
+              className={styles.icons}
+              src="icons/Engage.svg"
+              alt="user friendly"
+            />
+          </Col>
+          <Col className={styles.col} xs={4}>
+            <img
+              className={styles.icons}
+              src="icons/Include.svg"
+              alt="user friendly"
+            />
+          </Col>
+        </Row>
       </div>
-    </div>
+    </Card>
   );
 }
 

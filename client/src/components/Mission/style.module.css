@@ -1,105 +1,70 @@
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
 .title {
   font-size: 1.25rem;
   font-weight: 600;
-  color: #F2055C;
+  color: #0145ff;
 }
 
 .mission {
   background: white;
   color: #0a0b0d;
-  padding: 5%;
-}
-
-.wrapper {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
-  grid-column-gap: 5%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 7.5vw;
 }
 
 .moto {
-  font-size: 2rem;
-  padding: 20px 20%;
-  font-weight: 700;
-  text-align: center;
-}
-
-.pText {
-  text-align: center;
-  padding: 0 20%;
-  font-weight: 300;
-  opacity: .9;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+  color: rgba(0, 0, 0, .5);
+  padding: 0;
+  font-weight: 400;
 }
 
 .dot {
-  color: #F2055C;
+  color: #0145ff;
 }
 
-.sectionTitle {
-  font-size: 3rem;
+.icons {
   width: 100%;
-  letter-spacing: 2.5px;
-  font-weight: 700;
-  text-align: center;
-}
-
-.hr {
-  position: relative;
-  border: 2.5px solid #F2055C;
-  background-color: #F2055C;
   border-radius: 25px;
-  margin: 25px 45% 35px 45%;
 }
 
-@media (max-width: 1024px) {
-  .sectionTitle {
-    font-size: 2.5rem;
+.row {
+  padding: 0; margin: 0;
+}
+
+.icons:hover {
+  transform: scale(1.1);
+}
+
+.col {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+@media (max-width: 768px) {
+  .content {
+    margin-bottom: 35px;
   }
-  .moto {
-    font-size: 1.5rem;
-    padding: 20px 15%;
-  }
-  
-  .pText {
-    padding: 0 15%;
-    font-size: 1.25rem;
+  .icons {
+    width: 80%;
+    border-radius: 15px;
   }
 }
 
 @media (max-width: 576px) {
-  .sectionTitle {
-    font-size: 1.5rem;
+  .content {
+    margin-bottom: 25px;
+  }
+  .mission {
+    padding: 10% 5%;
+    grid-template-columns: 1fr;
+  }
+  .icons {
+    border-radius: 15px;
   }
   .moto {
-    font-size: 1.25rem;
-    padding: 20px 5%;
-  }
-  
-  .pText {
-    padding: 0 5%;
-    font-size: .9rem;
-  }
-  .hr {
-    margin: 25px 40% 5px 40%;
+    font-size: 1rem;
   }
 }
