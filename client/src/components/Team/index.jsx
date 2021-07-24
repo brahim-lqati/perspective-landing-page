@@ -89,21 +89,23 @@ const Team = () => {
   let i = 0;
 
   return (
-    <Card id="team">
-      <Title title="Our Hard-working Team" />
-      <Slider {...settings}>
-        {team.map((person) => (
-          <div key={person.firstname}>
-            <img
-              src={person.image}
-              height="100%"
-              width="90%"
-              alt={person.firstname + person.lastname}
-            />
-          </div>
-        ))}
-      </Slider>
-    </Card>
+    <div id="team">
+      <Card id="team">
+        <Title title="Our Hard-working Team" />
+        <Slider {...settings}>
+          {team.map((person) => (
+            <div key={person.firstname}>
+              <img
+                src={person.image}
+                height="100%"
+                width="90%"
+                alt={person.firstname + person.lastname}
+              />
+            </div>
+          ))}
+        </Slider>
+      </Card>
+    </div>
   );
 };
 

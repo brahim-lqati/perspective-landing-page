@@ -19,7 +19,7 @@ function Products() {
   ];
 
   return (
-    <div className={styles.products}>
+    <div id="products" className={styles.products}>
       <Card id="products">
         <Title title="Our Impressive Products" />
         {data.map((product) => (
