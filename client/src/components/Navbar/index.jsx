@@ -6,7 +6,7 @@ import { Nav, Navbar } from "react-bootstrap";
 
 function Navigation() {
   return (
-    <Navbar className={styles.nav} collapseOnSelect expand="lg">
+    <Navbar className={styles.nav } collapseOnSelect expand="lg" >
       <Navbar.Brand href="#home">
         <img
           className={styles.logo}

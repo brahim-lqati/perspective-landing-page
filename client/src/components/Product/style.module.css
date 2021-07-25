@@ -77,6 +77,12 @@
   -webkit-appearance: none;
 }
 
+@media (max-width: 1024px) {
+  .content {
+    padding-right: 0;
+  }
+}
+
 @media (max-width: 576px) {
   .infos {
     grid-template-columns: 1fr;
@@ -85,10 +91,11 @@
   .icon {
     font-size: 1.2rem;
   }
-  .btnWhite, .btnPrimary {
-    font-size: .75rem;
+  .btnWhite,
+  .btnPrimary {
+    font-size: 0.75rem;
   }
   .content {
     padding-right: 0;
-  }  
+  }
 }

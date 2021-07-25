@@ -2,9 +2,6 @@
   margin: 0;
   padding: 15px 5%;
   background-color: #1A2980;
-  position: fixed;
-  width: 100vw;
-  z-index: 1000;
 }
 
 .logo {
@@ -25,7 +22,7 @@
 }
 
 .menuDark {
-  background-image: url("./menudark.svg");
+  background-image: url("./menu.svg");
   background-position: center;
   background-size: 100%;
   padding: 10px;
