@@ -1,95 +1,50 @@
-a {
-  text-decoration: none;
-}
-
 .dot {
-  color: #f2055c;
+  color: #0145ff;
 }
 
 .main {
-  background: url("background.jpg");
-  background-position: center;
-  background-repeat: none;
-  background-size: cover;
-  background-attachment: fixed;
-  padding: 0 5% 0 0;
+  padding: 2.5% 5%;
   display: -ms-grid;
   display: grid;
+  grid-template-columns: 1fr 1fr;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  color: white;
-}
-
-.caption {
-  width: 45vw;
-  padding: 7% 0 9% 5%;
-  background: linear-gradient(
-    90deg,
-    rgba(2, 17, 64, 0.75) 0,
-    rgba(2, 17, 64, 0) 100%
-  );
 }
 
 .caption h1 {
-  font-size: 7rem;
+  background: linear-gradient(#1a2980, #26d0ce);
+  background-clip: text;
+  background-attachment: fixed;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  font-size: 5rem;
 }
 
 .caption h2 {
-  font-size: 1.5rem;
-  font-weight: 400;
+  font-size: 1.25rem;
+  font-weight: 300;
   opacity: 0.75;
-  padding-right: 25%;
-  margin: 20px 0 50px 0;
+  padding: 20px 10% 30px 0;
 }
 
-.buttons {
-  display: block;
-}
-
-.btnPrimary {
-  font-size: 1.35rem;
-  padding: 15px 35px;
-  border-radius: 100px;
-  background: #f2055c;
-  color: white;
+.caption a {
   font-weight: 600;
-  margin-right: 30px;
-}
-
-.btnWhite {
-  font-size: 1.35rem;
-  padding: 15px 35px;
-  border-radius: 100px;
-  background: white;
   color: black;
-  font-weight: 600;
+  background: #26d0ce;
+  border-radius: 10px;
+  padding: 10px 30px;
+  border: none;
 }
 
-@media (max-width: 1400px) {
-  .main {
-    background-position: bottom;
-  }
-  .caption {
-    width: 55vw;
-  }
-
-  .caption h1 {
-    font-size: 6rem;
-  }
-
-  .caption h2 {
-    font-size: 1.25rem;
-  }
+.image {
+  justify-self: right;
 }
 
 @media (max-width: 1024px) {
   .main {
-    background-position: bottom;
-    background-size: contain;
-  }
-  .caption {
-    width: 55vw;
+    grid-row-gap: 5vh;
   }
 
   .caption h1 {
@@ -97,16 +52,17 @@ a {
   }
 
   .caption h2 {
+    font-size: 1.2rem;
+  }
+
+  .caption a {
     font-size: 1rem;
   }
 }
 
 @media (max-width: 768px) {
   .main {
-    background-position: bottom;
-  }
-  .caption {
-    width: 75vw;
+    grid-row-gap: 5vh;
   }
 
   .caption h1 {
@@ -116,36 +72,37 @@ a {
   .caption h2 {
     font-size: 1rem;
   }
+
+  .caption a {
+    font-size: 0.75rem;
+  }
+
+  .image {
+    justify-self: center;
+  }
 }
 
 @media (max-width: 576px) {
   .main {
-    background-position: bottom;
-  }
-  .caption {
-    width: 100vw;
-    padding: 15% 0 15% 5%;
+    padding: 2.5% 10%;
+    grid-template-columns: 1fr;
+    grid-row-gap: 5vh;
   }
 
   .caption h1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .caption h2 {
-    font-size: .8rem;
-    margin: 20px 0 20px 0;
+    font-size: 1rem;
   }
-  .btnPrimary {
-    font-size: .8rem;
-    padding: 7px 20px;
+
+  .caption a {
+    font-size: 0.75rem;
   }
-  
-  .btnWhite {
-    font-size: .8rem;
-    margin-top: 15px;
-    padding: 7px 20px;
-    display: block;
-    width: fit-content;
+
+  .image {
+    justify-self: center;
   }
 }
 /*# sourceMappingURL=style.css.map */

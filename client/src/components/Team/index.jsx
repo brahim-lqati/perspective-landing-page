@@ -2,7 +2,8 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import styles from "./style.module.css";
+import Card from "../Card";
+import Title from "../Title";
 
 const Team = () => {
   const settings = {
@@ -20,25 +21,25 @@ const Team = () => {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
-          dots: true
-        }
+          dots: true,
+        },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          initialSlide: 2
-        }
+          initialSlide: 2,
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   const team = [
     {
@@ -84,26 +85,24 @@ const Team = () => {
       image: "images/meryeme.png",
     },
   ];
-  let i = 0;
 
   return (
-    <div id="team"  className={styles.teamContainer}>
-      <h2 className={styles.sectionTitle}>Our Hard-working Team</h2>
-      <hr className={styles.hr} />
-
-      <Slider  {...settings}>
-        {team.map((person) => (
-          <div key={person.firstname} className={styles.card}>
-            <img
-              className={styles.imagespace}
-              src={person.image}
-              height="100%"
-              width="90%"
-              alt={person.firstname + person.lastname}
-            />
-          </div>
-        ))}
-      </Slider>
+    <div id="team">
+      <Card id="team">
+        <Title title="Our Hard-working Team" />
+        <Slider {...settings}>
+          {team.map((person) => (
+            <div key={person.firstname}>
+              <img
+                src={person.image}
+                height="100%"
+                width="90%"
+                alt={person.firstname + person.lastname}
+              />
+            </div>
+          ))}
+        </Slider>
+      </Card>
     </div>
   );
 };

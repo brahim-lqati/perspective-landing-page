@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./style.module.css";
+import MainImage from "../MainImage";
 
 function Caption() {
   return (
@@ -13,15 +14,9 @@ function Caption() {
           write but also to become autonomous, independent and above all to
           embrace their uniqueness.
         </h2>
-        <div className={styles.buttons}>
-          <a className={styles.btnPrimary} href="#">
-            Get More information
-          </a>
-          <a className={styles.btnWhite} href="#">
-            Contact Us
-          </a>
-        </div>
+        <a className="btn btn-primary" href="#">Get More Information</a>
       </div>
+      <MainImage className={styles.image} />
     </main>
   );
 }

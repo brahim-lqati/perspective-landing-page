@@ -1,0 +1,29 @@
+.sectionTitle {
+  font-size: 3rem;
+  letter-spacing: 2.5px;
+  font-weight: 700;
+  padding: 0; margin: 0;
+}
+
+.hr {
+  position: relative;
+  border: 2px solid #26d0ce;
+  background-color: #26d0ce;
+  border-radius: 25px;
+  width: 20vw;
+  margin: 25px 0 35px 0;
+  opacity: 1;
+}
+
+.title {
+  padding: 0; margin: 0;
+}
+
+@media (max-width: 576px) {
+  .sectionTitle {
+    font-size: 1.5rem;
+  }
+  .hr {
+    margin: 15px 0 15px 0;
+  }
+}

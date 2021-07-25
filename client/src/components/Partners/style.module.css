@@ -1,27 +1,6 @@
-a {
-  text-decoration: none;
-}
-
-.parteners {
-  background: white;
-  color: #0a0b0d;
-  padding: 5%;
-}
-
-.sectionTitle {
-  font-size: 3rem;
-  width: 100%;
-  letter-spacing: 2.5px;
-  font-weight: 700;
-  text-align: center;
-}
-
-.hr {
-  position: relative;
-  border: 2.5px solid #F2055C;
-  background-color: #F2055C;
-  border-radius: 25px;
-  margin: 25px 45% 35px 45%;
+.card {
+  background: #DDDDDD;
+  padding: 3% 5% 5% 5%;
 }
 
 .list {
@@ -33,6 +12,8 @@ a {
 .logo {
   width: 100%;
   border-radius: 10px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 @media (max-width: 1024px) {
@@ -42,7 +23,11 @@ a {
 }
 
 @media (max-width: 576px) {
-
+  .card {
+    background: #DDDDDD;
+    padding: 3% 10% 5% 10%;
+  }
+  
   .sectionTitle {
     margin-top: 20px;
     font-size: 1.5rem;

@@ -1,0 +1,161 @@
+a {
+  text-decoration: none;
+}
+
+.products {
+  background: #1A2980;
+  color: white;
+}
+
+.product {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+}
+
+.productImg {
+  height: 30vw;
+  padding-bottom: 50px;
+}
+
+.content {
+  padding: 0 15%;
+  display: grid;
+  justify-self: center;
+  justify-items: center;
+}
+
+.title {
+  font-size: 2.75rem;
+  text-align: center;
+}
+
+.text {
+  opacity: 0.75;
+  margin: 20px 0 40px 0;
+  text-align: center;
+}
+
+.dot {
+  color: #f2055c;
+}
+
+.icon {
+  padding-right: 10px;
+}
+
+.btns {
+  display: flex;
+}
+
+.btnPrimary {
+  padding: 10px 25px;
+  border-radius: 100px;
+  background: #f2055c;
+  color: white;
+  font-weight: 600;
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.btnWhite {
+  padding: 10px 25px;
+  border-radius: 100px;
+  background: black;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.sectionTitle {
+  font-size: 3rem;
+  width: 100%;
+  letter-spacing: 2.5px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.hr {
+  position: relative;
+  border: 2.5px solid #f2055c;
+  background-color: #f2055c;
+  border-radius: 25px;
+  margin: 25px 45% 35px 45%;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 50px;
+}
+
+.icon {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+  .sectionTitle {
+    font-size: 2.5rem;
+  }
+
+  .title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .text {
+    opacity: 0.75;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 50px;
+  }
+
+  .title {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .productImg {
+    height: 30vh;
+  }
+  .text {
+    opacity: 0.75;
+    font-size: 1rem;
+    margin: 10%;
+  }
+}
+
+@media (max-width: 576px) {
+  .sectionTitle {
+    font-size: 1.5rem;
+  }
+  .content {
+    padding: 0;
+  }
+  .productImg {
+    height: 40vh;
+  }
+  .hr {
+    margin: 25px 40% 25px 40%;
+  }
+}
+
+@media (max-width: 350px) {
+  .btnWhite {
+    display: block;
+    margin-top: 20px;
+  }
+  
+  .sectionTitle {
+    display: block;
+    width: fit-content;
+  }
+  
+}

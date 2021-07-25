@@ -1,34 +1,19 @@
-import React, {useState} from 'react'
-import Header from '../../components/Header';
-import Contact from '../../components/Contact';
-import { Modal, Button } from 'react-bootstrap';
+import React from 'react'
 import Team from '../../components/Team';
 import Navbar from '../../components/Navbar';
 import Caption from '../../components/Caption';
 import Mission from '../../components/Mission';
-import Product from '../../components/Product';
+import Products from '../../components/Products';
 import Footer from '../../components/Footer';
 import Partners from '../../components/Partners';
 
-
-
-
 const Home = () => {
-
-    const [show, setShow] = useState(false);
-    const handleContact = () => {
-        setShow(true);
-    }
-
-    const close = () => {
-        setShow(false);
-    }
     return (
         <>
           <Navbar />
           <Caption />
           <Mission />
-          <Product />
+          <Products />
           <Team />
           <Partners />
           <Footer />
