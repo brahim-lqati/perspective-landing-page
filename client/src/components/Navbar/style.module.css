@@ -34,34 +34,6 @@
   opacity: 1;
 }
 
-.test:hover {
-  color: white;
-  opacity: 1;
-}
-
-.btnbuy {
-  text-decoration: none;
-  font-size: 1.2rem;
-  border: 1.5px solid #f2055c;
-  background: transparent;
-  color: #f2055c;
-  padding: 5px 30px;
-  border-radius: 50px;
-  margin-left: 20px;
-  width: fit-content;
-}
-.btnbuyActive {
-  color: white;
-  border: 1.5px solid white;
-
-}
-
-.btnbuy:hover {
-  background: #f2055c;
-  color: white;
-  transition: 0.5s;
-}
-
 @media (max-width: 1024px) {
   .link,
   .btnbuy {

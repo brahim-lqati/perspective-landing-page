@@ -8,6 +8,10 @@
   color: white;
 }
 
+.content {
+  padding-right: 25%;
+}
+
 .infos img {
   width: 100%;
   justify-self: left;
@@ -84,4 +88,7 @@
   .btnWhite, .btnPrimary {
     font-size: .75rem;
   }
+  .content {
+    padding-right: 0;
+  }  
 }
