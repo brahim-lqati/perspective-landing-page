@@ -1,5 +1,5 @@
 .card {
-  background: #DDDDDD;
+  background: rgb(38, 208, 206, .2);
   padding: 3% 5% 5% 5%;
 }
 
@@ -12,8 +12,6 @@
 .logo {
   width: 100%;
   border-radius: 10px;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
 }
 
 @media (max-width: 1024px) {
@@ -24,7 +22,6 @@
 
 @media (max-width: 576px) {
   .card {
-    background: #DDDDDD;
     padding: 3% 10% 5% 10%;
   }
   

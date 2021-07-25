@@ -10,7 +10,7 @@ function Navigation() {
       <Navbar.Brand href="#home">
         <img
           className={styles.logo}
-          src={'logo/logoBlack.svg'}
+          src={'logo/logoWhite.svg'}
           alt="perception"
         />
       </Navbar.Brand>

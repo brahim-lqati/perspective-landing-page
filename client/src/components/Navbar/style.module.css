@@ -1,6 +1,7 @@
 .nav {
   margin: 0;
   padding: 15px 5%;
+  background-color: #1A2980;
 }
 
 .logo {
@@ -13,14 +14,11 @@
 
 .link {
   margin: 10px 0 10px 40px;
-  color: black;
+  color: white;
   text-decoration: none;
   font-size: 1.2rem;
   display: block;
   opacity: .75;
-}
-.test {
-  color: white;
 }
 
 .menuDark {
@@ -32,7 +30,7 @@
 }
 
 .link:hover {
-  color: black;
+  color: white;
   opacity: 1;
 }
 

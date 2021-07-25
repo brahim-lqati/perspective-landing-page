@@ -26,8 +26,8 @@ function Footer() {
             For businesses<span className={styles.dot}>.</span>
           </h6>
           <div className={styles.links}>
-            <a href="#">Perspective Glasses</a>
-            <a href="#">Perspective Writing</a>
+            <a href="#">Perception Glasses</a>
+            <a href="#">Perception Writing</a>
             <a href="#">Contact Us</a>
           </div>
         </section>
@@ -36,8 +36,8 @@ function Footer() {
             For Schools<span className={styles.dot}>.</span>
           </h6>
           <div className={styles.links}>
-            <a href="#">Perspective Glasses</a>
-            <a href="#">Perspective Writing</a>
+            <a href="#">Perception Glasses</a>
+            <a href="#">Perception Writing</a>
             <a href="#">Blog</a>
             <a href="#">Contact Us</a>
           </div>
@@ -47,8 +47,8 @@ function Footer() {
             For Individuals<span className={styles.dot}>.</span>
           </h6>
           <div className={styles.links}>
-            <a href="#">Perspective Glasses</a>
-            <a href="#">Perspective Writing</a>
+            <a href="#">Perception Glasses</a>
+            <a href="#">Perception Writing</a>
             <a href="#">Blog</a>
             <a href="#">Contact Us</a>
           </div>
