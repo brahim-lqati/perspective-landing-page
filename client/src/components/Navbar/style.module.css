@@ -2,6 +2,9 @@
   margin: 0;
   padding: 15px 5%;
   background-color: #1A2980;
+  position: fixed;
+  width: 100vw;
+  z-index: 1000;
 }
 
 .logo {
