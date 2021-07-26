@@ -10,7 +10,7 @@ function Caption() {
           Embrace Your Vision<span className={styles.dot}>.</span>
         </h1>
         <h2>
-          Perspective will not only help people with impaired vision to read and
+          Perception will not only help people with impaired vision to read and
           write but also to become autonomous, independent and above all to
           embrace their uniqueness.
         </h2>
